@@ -5,6 +5,7 @@ const production = !process.env.ROLLUP_WATCH;
 
 module.exports = {
   preprocess: sveltePreprocess({
+    tsconfigFile: './tsconfig.json',
     scss: {
       includePaths: ['src'],
       implementation: require('sass'),

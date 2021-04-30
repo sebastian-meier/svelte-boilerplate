@@ -59,5 +59,5 @@ test('empty menu', () => {
   const menu = []
   const {container} = render(Menu, { menu });
 
-  expect(container.innerHTML).toBe('<div><ul></ul></div>')
+  expect(container.innerHTML).toBe('<div></div>')
 })

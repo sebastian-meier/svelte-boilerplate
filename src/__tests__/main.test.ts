@@ -1,4 +1,5 @@
 import { screen } from '@testing-library/svelte'
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 import App from '../App.svelte'
 import main from '../main'
 

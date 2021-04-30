@@ -1,14 +1,14 @@
 module.exports = {
   "clearMocks": true,
   "transform": {
+    "^.+\\.(js|mjs)$": "babel-jest",
+    "^.+\\.ts$": "ts-jest",
     "^.+\\.svelte$": [
       "svelte-jester",
       {
         "preprocess": true
       }
-    ],
-    "^.+\\.(js|mjs)$": "babel-jest",
-    "^.+\\.ts$": "ts-jest"
+    ]    
   },
   "moduleFileExtensions": [
     "js",

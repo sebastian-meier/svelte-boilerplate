@@ -12,6 +12,7 @@
   }
 </script>
 
+{#if menu && menu.length > 0}
 <ul>
   {#each menu as item}
     <li>
@@ -24,3 +25,4 @@
     </li>
   {/each}
 </ul>
+{/if}

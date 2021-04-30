@@ -3,7 +3,7 @@
   "include": ["src/**/*"],
   "exclude": ["node_modules/*", "__sapper__/*", "public/*", "tools/*"],
   "compilerOptions": {
-    "types": ["jest"],
+    "types": ["jest", "node"],
     "resolveJsonModule": true,
     "esModuleInterop": true,
     "importsNotUsedAsValues": "remove"
