@@ -1,3 +1,1 @@
-<div id="footer">
-  Footer: Really nice boilerplate
-</div>
+<div id="footer">Footer: Really nice boilerplate</div>

@@ -7,5 +7,5 @@ export const routes = {
   '/home': Home,
   '/about': About,
   '/404': NotFound,
-  '*': NotFound,
+  '*': NotFound
 }
