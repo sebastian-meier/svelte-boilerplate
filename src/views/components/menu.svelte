@@ -4,7 +4,6 @@
   export let menu: {
     url: string
     label: string
-    protected: boolean
   }[] = []
 
   let cLocation = ''

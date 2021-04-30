@@ -17,12 +17,16 @@ module.exports = {
     "svelte"
   ],
   "coverageDirectory": ".coverage",
+  "coverageReporters": ["json", "lcov", "text", "clover", "html"],
   "collectCoverageFrom": [
     "src/**/*.js",
     "src/**/*.svelte",
     "src/**/*.ts"
   ],
   "coverageProvider": "babel",
+  "coveragePathIgnorePatterns": [
+    ".*\\.d\\.ts"
+  ],
   transformIgnorePatterns: [
     ignoreModules([
       'svelte-spa-router',
