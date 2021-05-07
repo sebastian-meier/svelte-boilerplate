@@ -30,6 +30,12 @@ test('button - no prop', () => {
   expect(container.innerHTML).toBe('<div></div>')
 })
 
+
+test('button - via props', () => {
+  const { container } = render(Button, { props: { label: 'Hello'}});
+  expect(container.innerHTML).toBe('<div><button>Hello</button></div>')
+})
+
 test('button - false prop', () => {
   global.console.warn = jest.fn()
   const {container} = render(Button, { falseProp: false });
